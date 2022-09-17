@@ -27,4 +27,12 @@ if (today === dob) {
 
 let total = age + ageHusband;
 console.log("Sum of " + name + " and " + nameHusband + "'s age is " + total);
+console.log(`Sum of ${name} and ${nameHusband}'s age is ${total}`);
 
+let pricePerItem = 500;
+let orderedQuantity = 6;
+let deliveryFee = 50;
+let totalPrice = pricePerItem * orderedQuantity + deliveryFee;
+const message = `You ordered items worth ${totalPrice} credits. Delivery (${deliveryFee} credits) is included in total price.`
+
+console.log(message)
